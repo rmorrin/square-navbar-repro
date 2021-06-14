@@ -1,16 +1,9 @@
 # square_repro
 
-A new Flutter project.
+A repro for the following [Square in-app-payments-flutter-plugin issue](https://github.com/square/in-app-payments-flutter-plugin/issues/161)
 
-## Getting Started
+**_Example page with AppBar (notice broken nav bar icons)_**  
+![With AppBar](https://user-images.githubusercontent.com/2046187/121966276-3e450100-cd66-11eb-973a-ef74aba8b751.gif)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**_Example page without AppBar (working as expected)_**  
+![Without AppBar](https://user-images.githubusercontent.com/2046187/121966341-603e8380-cd66-11eb-8399-ee5c515fbba2.gif)
